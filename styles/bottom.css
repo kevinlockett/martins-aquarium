@@ -1,8 +1,8 @@
 .quotes,
 .harvest_places {
-    border: .25rem solid #0176ca;
+    border: .25rem solid var(--clr-accent-900);
     border-radius: 10px;
-    margin: 2rem 0;
+    margin: 2rem 4rem;
 }
 
 .quote {
@@ -15,7 +15,7 @@
     justify-content: space-evenly;}
 
 .place {
-    max-width: 40%;
+    max-width: 30%;
     padding: 1rem;
     background-color: antiquewhite;
     border-radius: 10px;
@@ -24,6 +24,6 @@
 
 .place__img {
     box-shadow: 10px 10px gainsboro;
-    border-radius: 50%;
-    margin: 0 auto 2rem;
+    border-radius: 25%;
+    margin: 2rem auto;
 }
