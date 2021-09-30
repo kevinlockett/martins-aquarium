@@ -6,6 +6,7 @@
 .tip,
 .aside h2 {
     padding: 1rem;
+    color: var(--clr-accent-900);
 }
 
 .tip h4 {

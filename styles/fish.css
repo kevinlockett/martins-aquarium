@@ -6,13 +6,18 @@
 
 .fish {
     display: flex;
-    margin: .5rem 0 .5rem 0;
-    border: .1rem solid #0176ca;
+    margin: 1rem 0;
+    border: .2rem solid var(--clr-accent-900);
     border-radius: 10px;
 }
 
 .fish__img {
     flex: 1;
+    margin: auto 0 auto 1rem;
+}
+
+.image {
+    border-radius: 5%;
 }
 
 .fish__details {
