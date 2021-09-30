@@ -12,11 +12,11 @@ header {
     flex-wrap: nowrap;
 }
 
-.left {
-    flex: 3;
+.aquarium {
+    flex: 2;
 }
 
-.tips {
+.aside {
     flex: 1;
 }
 
@@ -28,7 +28,7 @@ header {
     text-align: center;
 }
 
-.left h2,
+.aquarium h2,
 .bottom h2 {
     padding-left: 2rem;
 }

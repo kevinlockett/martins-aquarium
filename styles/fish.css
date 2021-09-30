@@ -1,5 +1,7 @@
 .fishes {
     display: flex-column;
+    max-width: 80%;
+    margin: 0 auto;
 }
 
 .fish {
