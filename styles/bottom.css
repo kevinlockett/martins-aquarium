@@ -1,0 +1,29 @@
+.quotes,
+.harvest_places {
+    border: .25rem solid #0176ca;
+    border-radius: 10px;
+    margin: 2rem 0;
+}
+
+.quote {
+    margin: 2rem;
+}
+
+.places {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;}
+
+.place {
+    max-width: 40%;
+    padding: 1rem;
+    background-color: antiquewhite;
+    border-radius: 10px;
+    margin: 2rem 0;
+}
+
+.place__img {
+    box-shadow: 10px 10px gainsboro;
+    border-radius: 50%;
+    margin: 0 auto 2rem;
+}

@@ -1,0 +1,36 @@
+.fishes {
+    display: flex-column;
+}
+
+.fish {
+    display: flex;
+    margin: .5rem 0 .5rem 0;
+    border: .1rem solid #0176ca;
+    border-radius: 10px;
+}
+
+.fish__img {
+    flex: 1;
+}
+
+.fish__details {
+    flex: 3;
+    margin: 2rem 1rem;
+    line-height: 2.1rem;
+}
+
+.fish__detail {
+    display: flex;
+}
+
+.detail__title{
+    flex: 1;
+}
+
+.detail__fact {
+    flex: 3;
+}
+
+.fish__img {
+    padding: 0.5rem;
+}

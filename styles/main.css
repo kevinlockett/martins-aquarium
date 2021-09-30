@@ -1,0 +1,34 @@
+@import url(./reset.css);
+@import url(./fish.css);
+@import url(./bottom.css);
+@import url(./aside.css);
+
+header {
+    background-color: #09e8f8;
+}
+
+.content {
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+.left {
+    flex: 3;
+}
+
+.tips {
+    flex: 1;
+}
+
+header {
+    text-transform: uppercase;
+}
+
+.center {
+    text-align: center;
+}
+
+.left h2,
+.bottom h2 {
+    padding-left: 2rem;
+}
