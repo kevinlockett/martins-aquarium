@@ -1,8 +1,6 @@
 .quotes,
 .harvest_places {
-    border: .25rem solid var(--clr-accent-900);
-    border-radius: 10px;
-    margin: 2rem 4rem;
+    margin: 2rem 2rem;
 }
 
 .quote {
@@ -10,20 +8,32 @@
 }
 
 .places {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-evenly;}
+    display: flex-column;
+}
 
 .place {
-    max-width: 30%;
-    padding: 1rem;
-    background-color: antiquewhite;
+    margin: 2rem;
+    display: flex;
+    border: .2rem solid var(--clr-accent-900);
     border-radius: 10px;
-    margin: 2rem 0;
+}
+
+.place__image {
+    padding: 1rem;
+}
+
+.place__text {
+    padding: 1rem;
 }
 
 .place__img {
-    box-shadow: 10px 10px gainsboro;
-    border-radius: 25%;
-    margin: 2rem auto;
+    max-width: 500px;
+}
+
+.place__text h3 {
+    margin: 1rem 0 2rem;
+}
+
+.place__text p {
+    margin: 1rem 0;
 }
