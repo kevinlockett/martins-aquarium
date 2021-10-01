@@ -6,7 +6,7 @@
 
 
 header {
-    background: var(--clr-accent-900);
+    background-image: linear-gradient(45deg, var(--clr-accent-900), var(--clr-accent-800), var(--clr-accent-700), var(--clr-accent-500));
     margin-bottom: 2rem;;
 }
 
@@ -18,10 +18,11 @@ header {
 .content {
     display: flex;
     flex-wrap: nowrap;
+    margin: 0 2rem;
 }
 
 .aquarium {
-    flex: 2;
+    flex: 2.5;
 }
 
 .aside {
@@ -34,10 +35,4 @@ header {
 
 .center {
     text-align: center;
-}
-
-.aquarium h2,
-.bottom h2 {
-    padding-left: 2rem;
-    color: var(--clr-accent-900);
 }

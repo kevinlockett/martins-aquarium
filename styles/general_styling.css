@@ -4,8 +4,11 @@ to find colors based on one of the place photos */
 
 :root {
     
-    --clr-accent-300: hsla(179, 99%, 70%, 1); /* Aqua */
-    --clr-accent-600: hsla(197, 100%, 44%, 1); /* Carolina Blue */
+    --clr-accent-200: hsla(200, 88%, 90%, 1); /* columbia-blue */
+    --clr-accent-400: hsla(211, 98%, 75%, 1); /* french-sky-blue */
+    --clr-accent-500: hsla(205, 97%, 54%, 1); /* carolina-blue */
+    --clr-accent-700: hsla(212, 100%, 40%, 1); /* denim */
+    --clr-accent-800: hsla(210, 100%, 24%, 1); /* indigo-dye */
     --clr-accent-900: hsla(200, 71%, 19%, 1); /* Indigo Dye */
     --clr-accent-orange: hsla(26, 85%, 61%, 1); /* Cadmium Orange */
     --clr-accent-red: hsla(0, 92%, 29%, 1); /* Dark Red */
@@ -57,8 +60,8 @@ h6 {
 }
  
 p {
-    font-size: 1.4rem;
-    line-height: 2.4rem;
+    font-size: 1.2rem;
+    line-height: 2.2rem;
 }
 
 h1,
@@ -69,6 +72,12 @@ h5,
 h6,
 p {
     margin: 0;
+}
+
+.aquarium h2,
+.bottom h2 {
+    padding-left: 1rem;
+    color: var(--clr-accent-900);
 }
 
 img {

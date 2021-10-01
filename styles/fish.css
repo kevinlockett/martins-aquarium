@@ -1,28 +1,23 @@
 .fishes {
-    display: flex-column;
-    max-width: 80%;
-    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
 }
 
 .fish {
-    display: flex;
-    margin: 1rem 0;
+    display: flex-column;
+    margin: 1rem;
     border: .2rem solid var(--clr-accent-900);
     border-radius: 10px;
 }
 
 .fish__img {
-    flex: 1;
-    margin: auto 0 auto 1rem;
-}
-
-.image {
+    margin: 1rem auto;
     border-radius: 5%;
+    max-width: 300px;
 }
 
 .fish__details {
-    flex: 3;
-    margin: 2rem 1rem;
+    margin: 1rem .75rem;
     line-height: 2.1rem;
 }
 
@@ -31,11 +26,11 @@
 }
 
 .detail__title{
-    flex: 1;
+    flex: .75;
 }
 
 .detail__fact {
-    flex: 3;
+    flex: 2;
 }
 
 .fish__img {
