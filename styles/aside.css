@@ -1,22 +1,28 @@
-.tip,
-.aside h2 {
-    padding: 1rem 0;
-    color: var(--clr-accent-900);
+#aside {
+    flex: 1;
+    justify-content: center;
 }
 
 .tip {
-    background-image: linear-gradient(45deg, var(--clr-accent-900), var(--clr-accent-800), var(--clr-accent-700), var(--clr-accent-500));
-    color: var(--clr-neutral-300);
-    margin: 1rem auto 2rem;
+    padding: 1em;
+    margin: 1em auto 4em;
+    border-radius: 1em;
+    width: 90%;
 }
 
 .tip__text {
     padding: 1rem;
 }
 
+.tip__title {
+    text-align: center;
+    margin-top: 1em;
+}
+
 .tip__img {
-    margin: 0 auto 2rem;
+    display:block;
     max-width: 50%;
+    margin: 0em auto;
 }
 
 .tip h4 {

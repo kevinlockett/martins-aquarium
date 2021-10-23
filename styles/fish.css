@@ -1,38 +1,48 @@
-.fishes {
+.fishList {
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 2em 0;
+    padding: 1em 0;
 }
 
-.fish {
-    display: flex-column;
-    margin: 1rem;
-    border: .2rem solid var(--clr-accent-900);
+.fish__list {
+    width: 20rem;
+    margin: .5em;
+    border: 3px solid var(--clr-accent-800);
+    background: linear-gradient(-45deg, var(--clr-accent-200), var(--clr-neutral-300));
     border-radius: 10px;
 }
 
-.fish__img {
-    margin: 1rem auto;
-    border-radius: 5%;
-    max-width: 300px;
-}
-
 .fish__details {
-    margin: 1rem .75rem;
-    line-height: 2.1rem;
+    display: flex-column;
+    border-radius: 10px;
+    padding: 1em 0 1em 1em;
+    margin-top: auto;
+    bottom: 0;
 }
 
-.fish__detail {
-    display: flex;
+.fish__details ul,
+.fish__details li {
+    font-size: 1.1rem;
+    line-height: 1.6;
+    text-align: left;
 }
 
-.detail__title{
-    flex: .75;
-}
-
-.detail__fact {
-    flex: 2;
+.fish__image {
+    position: relative;
+    max-width: 300px;
+    height: 250px;
+    margin: .5em auto;
+    justify-content: center;
 }
 
 .fish__img {
-    padding: 0.5rem;
+    border-radius: 5%;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
 }

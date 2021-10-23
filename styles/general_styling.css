@@ -10,13 +10,17 @@ to find colors based on one of the place photos */
     --clr-accent-700: hsla(212, 100%, 40%, 1); /* denim */
     --clr-accent-800: hsla(210, 100%, 24%, 1); /* indigo-dye */
     --clr-accent-900: hsla(200, 71%, 19%, 1); /* Indigo Dye */
-    --clr-accent-orange: hsla(26, 85%, 61%, 1); /* Cadmium Orange */
-    --clr-accent-red: hsla(0, 92%, 29%, 1); /* Dark Red */
 
     --clr-neutral-100: #fff;
     --clr-neutral-200: #fafafa;
-    --clr-neutral-300: #e5e3e8;
-    --clr-neutral-400: #4e4e4e;
+    --clr-neutral-300: #e9e7eb;
+    --clr-neutral-400: #d3d0d4;
+    --clr-neutral-500: #4e4e4e;
+    --clr-neutral-600: #464447;
+
+    
+    --clr-primary-400: hsla(26, 85%, 61%, 1); /* Cadmium Orange */
+    --clr-primary-500: hsla(0, 92%, 29%, 1); /* Dark Red */
 }
 
 /* Reset */
@@ -30,17 +34,14 @@ to find colors based on one of the place photos */
 body {
     font-family: "Roboto", sans-serif;
     margin: 0;
-    line-height: 1.6rem;
 }
 
 h1 {
     font-size: 2.8rem;
-    padding: 1rem 0;
 }
 
 h2 {
-    font-size: 2.4rem;
-    padding: 1rem 0;
+    font-size: 2.5rem;
 }
  
 h3 {
@@ -61,7 +62,6 @@ h6 {
  
 p {
     font-size: 1.2rem;
-    line-height: 2.2rem;
 }
 
 h1,
@@ -72,16 +72,52 @@ h5,
 h6,
 p {
     margin: 0;
-}
-
-.aquarium h2,
-.bottom h2 {
-    padding-left: 1rem;
-    color: var(--clr-accent-900);
+    line-height: 1.6;
 }
 
 img {
   max-width: 100%;
   height: auto;
   display: block;
+}
+
+.section-title {
+    font-size: 2.5;
+    text-transform: uppercase;
+    font-weight: 900;
+    margin: 0;
+    text-align: center;
+    color: var(--clr-accent-900);
+}
+
+.fs-500 {
+    font-size: 1.3125rem;
+    margin: 0;
+}
+ 
+.bg-grey { 
+    color: var(--clr-primary-500);
+    background: linear-gradient(-45deg, var(--clr-neutral-400), var(--clr-neutral-300));
+    --pop: (var(--clr-accent-800));
+}
+
+.bg-orange {
+    color: var(--clr-neutral-100);
+    background: linear-gradient(-45deg, var(--clr-primary-500), var(--clr-primary-400));
+    --pop: (var(--clr-neutral-400));    
+}
+
+.bg-blue {
+    color: var(--clr-neutral-300);
+    background: linear-gradient(-45deg, var(--clr-accent-900), var(--clr-accent-800), var(--clr-accent-700), var(--clr-accent-500));
+    --pop: (var(--clr-primary-400));
+}
+
+ul,
+li {
+    list-style-type: none;
+    margin: 0;
+	padding: 0;
+	border: 0;
+	vertical-align: baseline;
 }

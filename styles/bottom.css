@@ -1,10 +1,60 @@
-.quotes,
+#travel_tips,
 .harvest_places {
-    margin: 2rem 2rem;
+    text-align: center;
+    margin: 2rem 0 0 0;
+    color: var(--clr-accent-900);
+    padding: 2rem 0;
+}
+
+.quotes {
+    display: flex;
+    justify-content: center;
+    margin: 2em 0;
 }
 
 .quote {
-    margin: 2rem;
+    width: 25%;
+    padding: 2em;
+    border-radius: 1em;
+    margin: 0 2rem;
+}
+
+.quote__title {
+    text-transform: uppercase;
+    line-height: 1.2em;
+    margin: 0 0 1em;
+}
+
+.quote__tip {
+    font-size: 3rem;
+    line-height: 1;
+    font-weight: 900;
+    margin: 0;
+    color: var(--pop);
+}
+
+.quote__tip span {
+    display: block;
+    font-size: 1.5625rem;
+    font-weight: 300;
+    margin-top: 0.25em;
+    line-height: 1.2em;
+
+}
+
+.quote__details {
+    margin: 2em 0;
+    line-height: 1.5;
+}
+
+.container {
+    padding: 0 2em;
+    margin: 0 auto;
+    max-width: 95%;
+  }
+
+.harvest_places {
+    margin: 2rem 2rem;
 }
 
 .places {
@@ -12,28 +62,46 @@
 }
 
 .place {
+    text-align: left;
     margin: 2rem;
     display: flex;
-    border: .2rem solid var(--clr-accent-900);
     border-radius: 10px;
+    border: .2rem solid var(--clr-accent-900);
+    align-items: center;
+    padding: 0.5em 2em 0.5em 0.5em;
+    line-height: 1.6;
+  
 }
 
-.place__image {
-    padding: 1rem;
-}
-
-.place__text {
-    padding: 1rem;
-}
-
-.place__img {
+.place img {
+    border-radius: 7px;
+    margin-right: 2rem;
     max-width: 500px;
 }
 
-.place__text h3 {
-    margin: 1rem 0 2rem;
+.place__name {
+    line-height: 1;
+    font-weight: 900;
+    color: var(--pop);
 }
 
-.place__text p {
-    margin: 1rem 0;
+.place__details {
+    margin-top: 0;
+    font-weight: 700;
+    opacity: 0.9;
+    margin-bottom: 1rem;
+}
+
+.place p {
+    margin: 0 0 1rem 0;
+}
+
+.place--flip {
+    padding: 0.5em 0.5em 0.5em 2em;
+}
+
+.place--flip img {
+    order: 2;
+    margin-right: 0;
+    margin-left: 2rem;
 }
