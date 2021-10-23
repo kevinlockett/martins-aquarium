@@ -1,43 +1,48 @@
-.fishes {
-    display: flex-column;
-    max-width: 80%;
-    margin: 0 auto;
+.fishList {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 2em 0;
+    padding: 1em 0;
 }
 
-.fish {
-    display: flex;
-    margin: 1rem 0;
-    border: .2rem solid var(--clr-accent-900);
+.fish__list {
+    width: 20rem;
+    margin: .5em;
+    border: 3px solid var(--clr-accent-800);
+    background: linear-gradient(-45deg, var(--clr-accent-200), var(--clr-neutral-300));
     border-radius: 10px;
 }
 
-.fish__img {
-    flex: 1;
-    margin: auto 0 auto 1rem;
-}
-
-.image {
-    border-radius: 5%;
-}
-
 .fish__details {
-    flex: 3;
-    margin: 2rem 1rem;
-    line-height: 2.1rem;
+    display: flex-column;
+    border-radius: 10px;
+    padding: 1em 0 1em 1em;
+    margin-top: auto;
+    bottom: 0;
 }
 
-.fish__detail {
-    display: flex;
+.fish__details ul,
+.fish__details li {
+    font-size: 1.1rem;
+    line-height: 1.6;
+    text-align: left;
 }
 
-.detail__title{
-    flex: 1;
-}
-
-.detail__fact {
-    flex: 3;
+.fish__image {
+    position: relative;
+    max-width: 300px;
+    height: 250px;
+    margin: .5em auto;
+    justify-content: center;
 }
 
 .fish__img {
-    padding: 0.5rem;
+    border-radius: 5%;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
 }

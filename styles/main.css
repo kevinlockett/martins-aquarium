@@ -1,43 +1,15 @@
 @import url(./general_styling.css);
+@import url(./header.css);
 @import url(./fish.css);
 @import url(./bottom.css);
 @import url(./aside.css);
 
-
-
-header {
-    background: var(--clr-accent-900);
-    margin-bottom: 2rem;;
-}
-
-.header_img {
-    padding: 2rem 0;
-    margin: 0 auto;
-}
-
 .content {
     display: flex;
     flex-wrap: nowrap;
+    margin: 0 4rem;
 }
 
-.aquarium {
+#aquarium {
     flex: 2;
-}
-
-.aside {
-    flex: 1;
-}
-
-header {
-    text-transform: uppercase;
-}
-
-.center {
-    text-align: center;
-}
-
-.aquarium h2,
-.bottom h2 {
-    padding-left: 2rem;
-    color: var(--clr-accent-900);
 }
