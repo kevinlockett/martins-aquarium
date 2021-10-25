@@ -15,9 +15,17 @@ export const Places = () => {
     // Create HTMLrepresentations of each fish here
     for (const place of places) {
 
+        let placeClass = ""
+
+        if (places.indexOf(place) % 2 === 0) {
+            placeClass = "place place--flip"
+        } else {
+            placeClass = "place"
+        }
+
         htmlString += `
         
-            <div class="place place--flip bg-${place.background}">
+            <div class="${placeClass} bg-${place.background}">
                 <img class="place__img" src="img/${place.image}" alt="${place.img_alt}" />
                 <div class="info">
                     <h3 class="place__name">${place.name}</h3>
@@ -26,6 +34,8 @@ export const Places = () => {
                 </div>
             </div>
             `
+        
+
     }
 
     return htmlString
