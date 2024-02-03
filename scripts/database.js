@@ -122,11 +122,11 @@ const database = {
             image: "rusty-angelfish-2.jpg"
         }, {
             id: 16,
-            name: "Dottyback",
+            name: "Royal Dottyback",
             species: "Pseudochromidae",
             length: 4,
             diet: "Carnivore",
-            origin: "Egypt",
+            origin: "Western Pacific",
             image: "bicolor-dottyback.png"
         }, {
             id: 17,
@@ -253,7 +253,7 @@ const database = {
         },{
             id: 5,
             name: "Peurto Galera",
-            details: "Protect your mask",
+            details: "Mindoro, Philippines",
             image: "puerto-galera-2.png",
             img_alt: "Peurto Galera, Mindoro, the Philippines",
             description: "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aliquid magni eaque vero, in, necessitatibus dolor repellat laboriosam esse qui dicta architecto iste iusto unde corrupti fugit corporis sed sapiente atque impedit assumenda eius tempora sit dignissimos! Itaque sunt sit illo ab beatae culpa praesentium tenetur nam totam!",
@@ -267,13 +267,21 @@ const database = {
             description: "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolores praesentium iure sapiente ad voluptas ipsam, provident nostrum distinctio eligendi quidem minus vel, molestias hic libero doloremque porro. Quasi veritatis quam nobis harum, id earum cupiditate nam ducimus eum architecto?",
             background: "blue"
         },{
-            id: 6,
+            id: 7,
             name: "Parque Nacional Tikal",
-            details: " Petén, Guatemala",
+            details: "Petén, Guatemala",
             image: "tikal.png",
             img_alt: "Mayan ruins in Tikal National Park, Guatemala",
             description: "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolores praesentium iure sapiente ad voluptas ipsam, provident nostrum distinctio eligendi quidem minus vel, molestias hic libero doloremque porro. Quasi veritatis quam nobis harum, id earum cupiditate nam ducimus eum architecto?",
             background: "grey"
+        },{
+            id: 8,
+            name: "Carless Reef",
+            details: "Red Sea Coast near Hurghada, Egypt",
+            image: "carless-reef.png",
+            img_alt: "Carless Reef, north, about 1 hour away sailing from Hurghada, Egypt",
+            description: "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolores praesentium iure sapiente ad voluptas ipsam, provident nostrum distinctio eligendi quidem minus vel, molestias hic libero doloremque porro. Quasi veritatis quam nobis harum, id earum cupiditate nam ducimus eum architecto?",
+            background: "orange"
         }
     ]
 }
